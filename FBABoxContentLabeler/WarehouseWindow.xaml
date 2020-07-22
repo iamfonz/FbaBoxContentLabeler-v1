@@ -1,0 +1,22 @@
+﻿<Window x:Class="FBABoxContentLabeler.WarehouseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FBABoxContentLabeler"
+        mc:Ignorable="d"
+        Title="Add New Warehouse" Height="300" Width="300">
+    <Grid>
+        <TextBox x:Name="txb_WhseCode" HorizontalAlignment="Left" Height="23" Margin="132,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txb_WhseName" HorizontalAlignment="Left" Height="23" Margin="132,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txb_WhseAddress" HorizontalAlignment="Left" Height="23" Margin="132,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txb_WhseCityStateZip" HorizontalAlignment="Left" Height="23" Margin="132,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lbl_WhseCode" Content="Warehouse Code" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_WhseName" Content="Company Name" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_WhseAddress" Content="Address" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.492,2.598"/>
+        <Label x:Name="lbl_WhseCityStateZip" Content="City, State Zip" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.492,2.598"/>
+        <Button x:Name="btn_Submit" Content="Submit" HorizontalAlignment="Left" Margin="36,220,0,0" VerticalAlignment="Top" Width="75" Click="btn_Submit_Click"/>
+        <Button x:Name="btn_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="181,220,0,0" VerticalAlignment="Top" Width="75" Click="btn_Cancel_Click"/>
+
+    </Grid>
+</Window>
